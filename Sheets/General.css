@@ -1,0 +1,128 @@
+body,html{
+    background:#fff;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+#navbar #subnavbar1{
+    background:#000;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size:1.2rem;
+    color:#fff;
+}
+#navbar #subnavbar1 .ctalinks{
+    color:#0c7c79;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.paddingrightleft5{
+    padding-right:5px;
+    padding-left:5px;
+}
+#navbar #subnavbar2{
+    background:#f1f1f1;
+    padding: 5px 0;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+#navbar #subnavbar2 .nav .nav-item .nav-link{
+    padding: .3rem .4rem;;
+    color:#000;
+    font-weight: bold;
+}
+.btn-myprimarycolor{
+    background-color: #0c7c79;
+    border-color: #0c7c79;
+    
+}
+.btn-myprimarycolor:hover,.btn-myprimarycolor:focus,.btn-myprimarycolor:active{
+    background-color: #0d8784 !important;
+    border-color: #0d8784 !important;
+    box-shadow: none !important;
+}
+.langue .dropdown-item{
+    padding: .25rem .4rem;
+}
+.langue .dropdown-menu{
+    border:none;
+}
+#subnavbar3{
+    background: #fff;
+    padding: 5px 0;
+}
+#subnavbar3 .navbar{
+    padding:0 0;
+}
+#subnavbar3 .brand img{
+    max-height: 50px;
+}
+#subnavbar3 .navbar .navbar-brand img{
+    max-height: 50px;
+}
+#subnavbar3 .navbar .navbar-nav .nav-item .nav-link{
+    color:#000;
+    text-transform: uppercase;
+}
+#subnavbar3 .cart{
+    color:#fff;
+    cursor: pointer;
+}
+.paddingleft5p{
+    padding-left: 5px;
+}
+#sidebarphone1 .nav .nav-item .nav-link{
+    cursor:pointer;
+    color:#000;
+}
+#sidebarphone1{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+#sidebarphone1 .brand img{
+    max-height:40px;
+}
+.fa-15rem{
+    font-size: 1.5rem;
+}
+/* Responsive Oranization*/
+@media only screen and (max-width: 576px) {
+    #navbar #subnavbar1{
+        font-size: 0.9rem;
+    }
+    #navbar #subnavbar1 .ctalinks{
+        font-size: 0.9rem;
+    }
+    #navbar #subnavbar2 .nav .nav-item .nav-link{
+        font-size:0.8rem;
+    }
+  }
+
+  #subnavbar4{
+      padding:10px 0;
+      text-transform: uppercase;
+
+  }
+  #subnavbar4 .nav-item a{
+      color:#000;
+  }
+  #subnavbar4 .nav-item .active{
+    background:#0c7c79;
+    color: #fff;
+}
+#phonebar{
+    background: #fff;;
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    z-index: 3;
+    display: none;
+
+}
+#phonebar .list-group .active{
+    background: #0c7c79;
+    border-color: #0c7c79;
+}
+#section1 #carousel{
+    min-height:354px;
+    max-height:354px;
+}
